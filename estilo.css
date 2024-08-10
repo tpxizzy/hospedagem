@@ -1,0 +1,276 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.texto1 {
+    background-color: rgb(255, 255, 255);
+    padding: 35px;
+    position: relative;
+}
+
+.texto1 img {
+    width: 80px;
+    position: absolute;
+    top: 16px;
+    left: 120px;
+}
+
+.texto1 h1 {
+    font-size: 50px;
+    margin-left: 205px;
+    margin-top: 0;
+    position: relative;
+}
+
+.texto1 p {
+    font-size: 18px;
+    margin-left: 205px;
+    margin-top: 30px;
+    color: blue;
+    position: relative;
+}
+
+.link {
+    position: absolute;
+    top: 35px;
+    right: 120px;
+}
+
+.link a {
+    font-size: 20px;
+    padding: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+.texto2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+}
+
+.texto3 {
+    max-width: 50%;
+}
+
+.texto3 h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.texto3 h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.texto3 p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.imagem1 {
+    max-width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagem1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+.promo-container {
+    background-color: rgb(26, 26, 94);
+    padding: 30px 0;
+    text-align: center;
+}
+
+.promo-text h1 {
+    font-size: 28px;
+    color: blue;
+}
+
+.promo-text p {
+    font-size: 18px;
+}
+
+.promo-button .btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(0, 110, 255);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.texto5 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.texto5 h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.texto5 h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    max-width: 250px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.feature img {
+    width: 80px;
+    margin-bottom: 15px;
+}
+
+.feature h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+.tabela2 {
+    background-color: #f5f5f5;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hab1 h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.pricing-table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.plan {
+    max-width: 250px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.plan img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.plan h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.plan ul li {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.plan ul li.sp1 {
+    font-weight: bold;
+}
+
+.cabecalho {
+    background-color: #00aeff;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+.cabecalho .btn-tabela-precos {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #fff;
+    color: #00aeff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.conteudo-principal {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.info-empresa {
+    background-color: #eee;
+    padding: 20px;
+    text-align: center;
+}
+
+.info-empresa .logo {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.info-empresa .texto6 h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.info-empresa .texto6 p {
+    font-size: 16px;
+    color: blue;
+}
+
+.rodape {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.rodape p {
+    font-size: 14px;
+    margin: 0;
+}
+
+.rodape .nome-aluno {
+    font-weight: bold;
+}
